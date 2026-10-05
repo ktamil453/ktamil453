@@ -250,33 +250,76 @@ JavaScript
 
 ---
 
-## ☀️ AI Solar Dust Accumulation Predictor
+## 🍔 Food Ordering & Delivery App
 
-An AI/ML application designed to predict solar panel
-dust accumulation and provide maintenance recommendations.
+A full-stack food ordering and delivery application designed to provide
+a complete online food ordering experience for users and centralized
+management features for administrators.
 
 ### ⚡ Technologies
 
 ```text
-Python
-Machine Learning
-XGBoost
-Flask
-HTML
-CSS
-JavaScript
+Frontend  → HTML, CSS, Bootstrap, JavaScript
+Backend   → Java, Spring Boot
+Database  → MySQL
+API       → REST API
 ```
 
-### ✨ Features
+### ✨ User Features
 
-* ☀️ Solar Panel Analysis
-* 🤖 Machine Learning Prediction
-* 📊 Dust Level Classification
-* 🔧 Maintenance Recommendation
-* 📈 Operational Data Analysis
+* 👤 User Registration & Login
+* 🍽️ Browse Food Items
+* 🔍 Search Food
+* 🥘 Food Categories
+* 🛒 Add Food to Cart
+* ➕ Update Cart Quantity
+* 🗑️ Remove Items from Cart
+* 💳 Place Orders
+* 📦 View Order History
+* 🚚 Track Order Status
+* 📱 Responsive Food Ordering Interface
+
+### 🔐 Admin Features
+
+* 🔑 Admin Login
+* 📊 Admin Dashboard
+* 🍔 Add Food Items
+* ✏️ Update Food Items
+* 🗑️ Delete Food Items
+* 📋 View All Orders
+* 👥 View Users
+* 📦 Manage Orders
+* 🔄 Update Order Status
+
+### 🚚 Order Status
+
+```text
+Order Placed
+      ↓
+Confirmed
+      ↓
+Preparing
+      ↓
+Out for Delivery
+      ↓
+Delivered
+```
+
+### 🗄️ Database
+
+```text
+Users
+Admin
+Food Items
+Categories
+Cart
+Orders
+Order Items
+Order Status
+```
 
 <p align="center">
-  <a href="https://github.com/ktamil453/ai-solar-dust-accumulation-predictor">
+  <a href="https://github.com/ktamil453">
     <img src="https://img.shields.io/badge/🔗%20VIEW%20PROJECT-181717?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
